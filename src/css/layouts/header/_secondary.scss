@@ -1,6 +1,6 @@
 .header.secondary {
   position: relative;
-  background-color: $neutral-color-50;
+  background-color: $neutral-color-950;
   box-shadow: $box-shadow-200;
 
   .container {
@@ -9,15 +9,20 @@
   }
 
   .logo {
-    font-size: 1.5rem;
-    color: $primary-color-500;
+    display: block;
+
+    img {
+      display: block;
+      font-size: 12px;
+      color: $neutral-color-50;
+      height: 40px;
+    }
   }
 
   nav {
-    display: none;
-
     .link {
-      color: $primary-color-500;
+      display: none;
+      color: $neutral-color-50;
     }
   }
 
@@ -25,7 +30,7 @@
     font-size: 0px;
     @include reset-button;
     @include square(20px);
-    @include background-image("menu.svg");
+    @include background-image("menu-white.svg");
   }
 
   @include md {
@@ -40,6 +45,10 @@
     nav {
       @include flex-center-center;
       gap: 1rem;
+
+      .link {
+        display: block;
+      }
     }
 
     .menu-button {

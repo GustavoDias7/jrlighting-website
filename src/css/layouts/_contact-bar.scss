@@ -1,5 +1,5 @@
 .contact-bar {
-  background-color: $primary-color-50;
+  background-color: $neutral-color-900;
   padding: 8px 0px;
 
   .container {
@@ -23,7 +23,11 @@
     a {
       @include flex-align-center;
       gap: 8px;
-      color: $neutral-color-950;
+      color: $neutral-color-50;
+
+      p {
+        color: $neutral-color-50;
+      }
     }
 
     img {
