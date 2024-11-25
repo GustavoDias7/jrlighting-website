@@ -1,0 +1,13 @@
+{% extends "../bases/base.njk" %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block css %}index{% endblock %}
+{% block js %}index{% endblock %}
+
+{% block content %}
+{% include "../layouts/banner.html" %}
+{% include "../layouts/products.html" %}
+{% include "../layouts/faq.njk" %}
+{% include "../layouts/contacts.html" %}
+{% endblock %}

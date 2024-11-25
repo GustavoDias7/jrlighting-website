@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    {% block title %}Default title{% endblock %} | JR Lighting
+  </title>
+  <link rel="stylesheet" href="../css/pages/{% block css %}{% endblock %}.css" />
+</head>
+
+<body>
+  <div id="app">
+    {% include "../layouts/contact_bar.html" %}
+    {% include "../layouts/header.html" %}
+    {% include "../layouts/menu.html" %}
+    {% block content %}{% endblock %}
+    {% include "../layouts/footer.html" %}
+  </div>
+  {% block script %}{% endblock %}
+  <script src="../js/pages/{% block js %}{% endblock %}.js"></script>
+</body>
+
+</html>
