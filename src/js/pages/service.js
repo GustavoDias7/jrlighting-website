@@ -10,7 +10,7 @@ const app = createApp({
   },
   data() {
     return {
-      product: product,
+      product: service,
     };
   },
   methods: {},
