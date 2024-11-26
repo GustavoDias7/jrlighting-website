@@ -1,3 +1,7 @@
+function removeAllNonNumericChars(str = "") {
+  return str.replace(/\D/g, "");
+}
+
 class Contacts {
   constructor(props = {}) {
     const { address_name, address_link, telephone, email, maps } = props;
@@ -12,7 +16,7 @@ class Contacts {
   }
 
   set_telephone_link() {
-    return `tel:${this.telephone}`;
+    return `tel:${removeAllNonNumericChars(this.telephone)}`;
   }
 
   set_email_link() {

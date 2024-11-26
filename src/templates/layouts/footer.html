@@ -6,9 +6,8 @@
           <div class="g-item-12 sm:g-item-6 lg:g-item-3">
             <div>
               <h3 class="text-xl text-mb-1">Endereço</h3>
-              <a class="text-sm"
-                href="https://maps.google.com/maps?ll=-22.914131,-43.445982&z=9&t=m&hl=en&gl=BR&mapclient=embed&q=Rio%20de%20Janeiro%20State%20of%20Rio%20de%20Janeiro"
-                target="_blank" rel="noopener noreferrer">Rio de Janeiro-RJ, Brasil</a>
+              <a class="text-sm" href="{{contacts.address_link}}" target="_blank"
+                rel="noopener noreferrer">{{contacts.address_name}}</a>
             </div>
           </div>
 
@@ -16,10 +15,10 @@
             <div>
               <h3 class="text-xl text-mb-1">Contatos</h3>
               <p>
-                <a class="text-sm" href="tel:2140028922">(21) 4002-8922</a>
+                <a class="text-sm" href="{{contacts.telephone_link}}">{{contacts.telephone}}</a>
               </p>
               <p>
-                <a class="text-sm" href="mailto:email@email.com">email@email.com</a>
+                <a class="text-sm" href="{{contacts.email_link}}">{{contacts.email}}</a>
               </p>
             </div>
           </div>
@@ -40,23 +39,19 @@
             <div>
               <h3 class="text-xl text-mb-1">Siga-nos</h3>
               <div class="social-links">
-                <a href="https://wa.me/552199999999" target="_blank" title="WhatsApp">
+                <a href="{{social_links.whatsapp}}" target="_blank" title="WhatsApp">
                   <img src="{{static('img/whatsapp-white.svg')}}" alt="WhatsApp">
                 </a>
-                <span class="line"></span>
-                <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                <a href="{{social_links.facebook}}" target="_blank" title="Facebook">
                   <img src="{{static('img/facebook-white.svg')}}" alt="Facebook">
                 </a>
-                <span class="line"></span>
-                <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+                <a href="{{social_links.instagram}}" target="_blank" title="Instagram">
                   <img src="{{static('img/instagram-white.svg')}}" alt="Instagram">
                 </a>
-                <span class="line"></span>
-                <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+                <a href="{{social_links.linkedin}}" target="_blank" title="LinkedIn">
                   <img src="{{static('img/linkedin-white.svg')}}" alt="LinkedIn">
                 </a>
-                <span class="line"></span>
-                <a href="https://x.com/" target="_blank" title="X">
+                <a href="{{social_links.x}}" target="_blank" title="X">
                   <img src="{{static('img/x-white.svg')}}" alt="X">
                 </a>
               </div>

@@ -14,9 +14,8 @@
             <h3 class="text-xl text-color-light text-align-center">
               Endereço
             </h3>
-            <a class="text-base"
-              href="https://maps.google.com/maps?ll=-22.914131,-43.445982&z=9&t=m&hl=en&gl=BR&mapclient=embed&q=Rio%20de%20Janeiro%20State%20of%20Rio%20de%20Janeiro"
-              target="_blank" rel="noopener noreferrer" target="_blank">Rio de Janeiro-RJ, Brasil</a>
+            <a class="text-base" href="{{contacts.address_link}}" target="_blank" rel="noopener noreferrer"
+              target="_blank">{{contacts.address_name}}</a>
           </div>
         </div>
         <div class="g-item-12 md:g-item-4">
@@ -25,22 +24,20 @@
             <h3 class="text-xl text-color-light text-align-center">
               Telefone
             </h3>
-            <a class="text-base" href="tel:2140028922" target="_blank">(21) 4002-8922</a>
+            <a class="text-base" href="{{contacts.telephone_link}}" target="_blank">{{contacts.telephone}}</a>
           </div>
         </div>
         <div class="g-item-12 md:g-item-4">
           <div class="contact-item">
             <img src="../../img/mail-white.svg" alt="E-mail" class="icon" />
             <h3 class="text-xl text-color-light text-align-center">E-mail</h3>
-            <a class="text-base" href="mailto:" target="_blank">email@email.com</a>
+            <a class="text-base" href="{{contacts.email_link}}" target="_blank">{{contacts.email}}</a>
           </div>
         </div>
       </div>
     </div>
     <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.7386830834!2d-43.77565508292252!3d-22.91315798611381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20State%20of%20Rio%20de%20Janeiro!5e0!3m2!1sen!2sbr!4v1725457331794!5m2!1sen!2sbr"
-        width="600" height="312" style="border: 0" allowfullscreen="" loading="lazy"
+      <iframe src="{{contacts.maps}}" width="600" height="312" style="border: 0" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
