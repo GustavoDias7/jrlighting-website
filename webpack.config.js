@@ -18,7 +18,8 @@ function getPaths(filePath) {
   const paths = [];
 
   // get all include and extends paths
-  const pattern = /\{%\s*(include|extends)\s+["']([^"']+?)["']\s*(?:\s+with\s+.+?)?\s*%\}/g;
+  const pattern =
+    /\{%\s*(include|extends)\s+["']([^"']+?)["']\s*(?:\s+with\s+.+?)?\s*%\}/g;
   const matches = fileContent.matchAll(pattern);
   for (const match of matches) {
     const absolutePath = path.resolve(path.parse(entryPath).dir, match[2]);
@@ -85,7 +86,7 @@ module.exports = {
         generator: { emit: false },
       },
       {
-        test: /\.(svg|png|jpg|gif)$/i,
+        test: /\.(svg|png|jpg|gif|webp)$/i,
         type: "asset/resource",
         generator: {
           emit: false,

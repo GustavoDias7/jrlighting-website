@@ -1,7 +1,9 @@
 .header.secondary {
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
   background-color: $neutral-color-950;
-  box-shadow: $box-shadow-200;
 
   .container {
     height: 48px;
