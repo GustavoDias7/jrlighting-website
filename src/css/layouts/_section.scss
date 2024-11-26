@@ -1,13 +1,23 @@
 .section {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  
-    &:nth-child(even) {
-      background-color: $neutral-color-100;
-    }
-  
-    @include sm {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: $neutral-color-900;
+  background: linear-gradient(0deg, $neutral-color-800 0%, $neutral-color-900 100%);
+  color: $neutral-color-50;
+
+  .subtitle {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  &:nth-child(even) {
+    background: $neutral-color-800;
+    background: linear-gradient(0deg, $neutral-color-900 0%, $neutral-color-800 100%);
+  }
+
+  @include sm {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
