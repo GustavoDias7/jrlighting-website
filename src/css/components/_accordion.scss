@@ -12,7 +12,7 @@
 
   &.primary {
     margin-bottom: 10px;
-    border: 2px solid $primary-color-500;
+    border: 2px solid $neutral-color-50;
 
     &:last-child {
       margin-bottom: 0px;
@@ -21,7 +21,7 @@
 
   &.secondary {
     border: none;
-    border-bottom: 1px solid $primary-color-500;
+    border-bottom: 1px solid $neutral-color-50;
 
     &:last-child {
       border-bottom: none;
@@ -37,6 +37,7 @@
 
     h3 {
       transition: $primary-transition;
+      color: $neutral-color-50;
     }
 
     .arrow {
@@ -53,7 +54,7 @@
   &.active .label h3,
   &:focus .label h3,
   &:hover .label h3 {
-    color: $primary-color-500
+    color: $neutral-color-50;
   }
 
   &.active .arrow {
@@ -63,6 +64,10 @@
   .content {
     height: 0;
     overflow: hidden;
+
+    p {
+      color: $neutral-color-50;
+    }
 
     &>div {
       padding: 0 20px 20px;

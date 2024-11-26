@@ -1,10 +1,16 @@
 .footer.secondary {
-  background-color: $primary-color-800;
+  background-color: $primary-color-950;
   color: $neutral-color-50;
 
   .container {
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+
+  h3,
+  p,
+  strong {
+    color: $neutral-color-50;
   }
 
   .footer-top {

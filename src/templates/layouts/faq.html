@@ -1,8 +1,11 @@
 <section class="section" id="faq">
   <div class="container md:container">
-    <h2 class="text-2xl sm:text-3xl text-color-primary text-align-center text-mb-2 sm:text-mb-4">
+    <h2 class="text-2xl text-color-light sm:text-3xl text-align-center text-mb-5 sm:text-mb-6">
       Perguntas Frequentes
     </h2>
+    <p class="subtitle text-base text-color-light text-align-center text-mb-5 sm:text-mb-6">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium veniam rerum, voluptatem impedit.
+    </p>
     {% for f in faq %}
     <button class="accordion secondary" :class="{active: {{f.id}} == accordion.index}"
       @click="handleAccordion({{f.id}})">
