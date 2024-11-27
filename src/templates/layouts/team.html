@@ -9,7 +9,7 @@
   </div>
 
   <div class="container md:container swiper-container">
-    <swiper class="swiper-team" :initial-slide="0" :breakpoints="breakpoints" :modules="modules">
+    <swiper :pagination="true" :initial-slide="0" :breakpoints="breakpoints" :modules="modules">
       {% for item in team %}
       <swiper-slide>
         <article class="card quaternary">

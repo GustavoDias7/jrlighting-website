@@ -1,0 +1,32 @@
+<section class="portfolio section" id="portfolio">
+  <div class="container md:container">
+    <h2 class="text-2xl text-color-light sm:text-3xl text-align-center text-mb-5 sm:text-mb-6">
+      Portfólio
+    </h2>
+    <p class="subtitle text-base text-color-light text-align-center text-mb-5 sm:text-mb-6">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium veniam rerum, voluptatem impedit.
+    </p>
+  </div>
+
+  <div class="container md:container swiper-container">
+    <swiper :initial-slide="1" :effect="'coverflow'" :grab-cursor="true" :centered-slides="true"
+      :slides-per-view="'auto'" :coverflow-effect="coverflowEffect" :pagination="true" :modules="modules"
+      :lazy-pre-loader-class="'swiper-lazy-preloader'">
+      <swiper-slide>
+        <div class="aspect-ratio aspect-1-1 fit">
+          <img src="../../img/placeholder-1.svg" loading="lazy" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="aspect-ratio aspect-1-1 fit">
+          <img src="../../img/placeholder-2.svg" loading="lazy" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="aspect-ratio aspect-1-1 fit">
+          <img src="../../img/placeholder-1.svg" loading="lazy" />
+        </div>
+      </swiper-slide>
+    </swiper>
+  </div>
+</section>
