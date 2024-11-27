@@ -55,3 +55,8 @@
 @import "../layouts/about/quinary.scss";
 @import "../layouts/about/senary.scss";
 @import "../layouts/section";
+@import "../layouts/team";
+
+@import "../../../node_modules/swiper/swiper.scss";
+@import "../../../node_modules/swiper/modules/pagination.scss";
+@import "../../../node_modules/swiper/modules/effect-coverflow.css";

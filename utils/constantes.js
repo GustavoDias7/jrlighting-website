@@ -34,18 +34,21 @@ const context = {
   ],
   team: [
     {
+      image: "../../img/icon-placeholder.svg",
       name: "Lorem ipsum",
       occupation: "Lorem ipsum dolor sit",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et. ",
     },
     {
+      image: "../../img/icon-placeholder.svg",
       name: "Lorem ipsum",
       occupation: "Lorem ipsum dolor sit",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et. ",
     },
     {
+      image: "../../img/icon-placeholder.svg",
       name: "Lorem ipsum",
       occupation: "Lorem ipsum dolor sit",
       description:

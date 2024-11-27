@@ -24,6 +24,7 @@
     "webpack-watch-files-plugin": "^1.2.1"
   },
   "dependencies": {
+    "swiper": "^11.1.15",
     "vue": "^3.5.3"
   }
 }

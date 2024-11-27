@@ -1,4 +1,4 @@
-<section class="section" id="team">
+<section class="team section" id="team">
   <div class="container md:container">
     <h2 class="text-2xl text-color-light sm:text-3xl text-align-center text-mb-5 sm:text-mb-6">
       Nosso Time
@@ -6,14 +6,22 @@
     <p class="subtitle text-base text-color-light text-align-center text-mb-5 sm:text-mb-6">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium veniam rerum, voluptatem impedit.
     </p>
-    <article class="card quaternary">
-      <img class="icon" src="../../img/icon-placeholder.svg" alt="Icon">
-      <h3 class="text-xl text-color-light">Lorem ipsum</h3>
-      <p class="text-base text-mb-4 text-color-light">Lorem ipsum dolor sit</p>
-      <p class="text-sm text-color-light">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia
-        voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et.
-      </p>
-    </article>
+  </div>
+
+  <div class="container md:container swiper-container">
+    <swiper class="swiper-team" :initial-slide="0" :breakpoints="breakpoints" :modules="modules">
+      {% for item in team %}
+      <swiper-slide>
+        <article class="card quaternary">
+          <img class="icon" src="{{item.image}}" alt="{{item.name}}">
+          <h3 class="text-xl text-color-light">{{item.name}}</h3>
+          <p class="text-base text-mb-4 text-color-light">{{item.occupation}}</p>
+          <p class="text-sm text-color-light">{{item.description}}</p>
+        </article>
+      </swiper-slide>
+      {% endfor %}
+
+      <swiper-slide></swiper-slide>
+    </swiper>
   </div>
 </section>
