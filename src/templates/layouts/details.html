@@ -1,59 +1,41 @@
-<section class="section">
+<section class="details section">
   <div class="container md:container">
-    <div class="details">
-      <div class="container">
-        <div class="g-root g-no-hidden g-gap-2 sm:g-gap-4">
-          <div class="g-row">
-            <div class="g-item-12 md:g-item-7">
-              <figure class="aspect-ratio aspect-1-1 fit">
-                <img :src="product.img" :alt="product.name" />
-              </figure>
-            </div>
-            <div class="g-item-12 md:g-item-5">
-              <aside class="main-infos">
-                <article>
-                  <header>
-                    <h2 class="text-xl sm:text-2xl text-color-primary" v-text="`${product.name}`">
-                    </h2>
-                  </header>
-                  <section>
-                    <ul>
-                      <li class="text-base text-mb-2">
-                        <strong>Descrição:</strong> <span v-text="product.description"></span>
-                      </li>
-                      <li class="text-base text-mb-2" v-if="product.discount">
-                        <strong>Preço:</strong> <span v-text="product.fprice"></span>
-                      </li>
-                      <li class="text-base text-mb-2" v-if="product.discount">
-                        <strong>Desconto:</strong> <span v-text="product.fdiscount"></span>
-                      </li>
-                      <li v-if="product.sizes" class="text-base">
-                        <strong>Tamanho:</strong> <br>
-                        <ul class="multi-buttons">
-                          <li v-if="product.sizes" v-for="size in product.sizes">
-                            <a v-if="!(size.id === product.size.id)" class="size"
-                              :href="`/product/?id=${size.product_id}&size=${size.id}`"
-                              v-text="size.short_name || size.name" :title="size.name"></a>
-                            <p v-else="" class="size active" v-text="size.short_name || size.name" :title="size.name">
-                            </p>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
+    <h2 class="text-2xl text-color-light sm:text-3xl text-mb-5 sm:text-mb-6">
+      Detalhes do Serviços
+    </h2>
+    <div class="g-root g-no-hidden g-gap-5 sm:g-gap-8">
+      <div class="g-row">
+        <div class="g-item-12 md:g-item-7">
+          <figure class="aspect-ratio aspect-1-1 fit">
+            <img :src="product.img" :alt="product.name" />
+          </figure>
+        </div>
 
-                  </section>
-                  <footer>
-                    <li> <strong>Total:</strong> <span v-text="product.ftotal"></span> </li>
-                  </footer>
-                </article>
-                <button class="gn-button pm-button full small sm:regular">Adicionar ao carrinho
-                </button>
-                <button class="gn-button sc-button full small sm:regular">
-                  Abrir carrinho
-                </button>
-              </aside>
+        <div class="g-item-12 md:g-item-5">
+          <article class="g-root g-no-hidden g-gap-4 md:g-gap-5">
+            <div class="g-row">
+              <header class="g-item-12">
+                <h2 class="text-xl sm:text-lg md:text-2xl text-color-primary" v-text="`${product.name}`"></h2>
+              </header>
+              <section class="g-item-12">
+                <hr>
+              </section>
+              <section class="g-item-12">
+                <ul>
+                  <li class="text-base text-mb-2">
+                    <strong>Descrição:</strong> <span v-text="product.description"></span>
+                  </li>
+                </ul>
+              </section>
+              <section class="g-item-12">
+                <hr>
+              </section>
+              <footer class="g-item-12">
+                <a :href="product.whatsapp_link" class="gn-button pm-button small full" target="_blank">Pedir via
+                  WhatsApp</a>
+              </footer>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </div>

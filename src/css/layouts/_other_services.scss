@@ -1,0 +1,21 @@
+.other-services {
+  .swiper {
+    padding-bottom: 4px;
+  }
+
+  .swiper-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .swiper-slide {
+    max-width: 272px;
+    padding-left: 20px;
+  }
+
+  @include sm {
+    .swiper-slide {
+      padding-left: 0px;
+    }
+  }
+}

@@ -7,16 +7,16 @@
 
 {% block content %}
 {% include "../layouts/details.html" %}
+{% include "../layouts/other_services.html" %}
 {% endblock %}
 
 {% block script %}
 <script>
   const str = "{{ getServices() }}".replace(/&quot;/ig, '"').replace(/&amp;/ig, '&')
-  console.log(str);
   const services = JSON.parse(str);
-
   const urlParams = new URLSearchParams(window.location.search);
   const serviceId = urlParams.get('id');
   const service = services.filter(item => item.id == serviceId)[0]
+  const other_services = services.filter(item => item.id != serviceId)
 </script>
 {% endblock %}
