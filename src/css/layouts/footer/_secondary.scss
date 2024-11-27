@@ -8,9 +8,15 @@
   }
 
   h3,
+  h4,
   p,
   strong {
     color: $neutral-color-50;
+  }
+
+
+  h3 {
+    text-decoration: underline;
   }
 
   .footer-top {
@@ -28,6 +34,11 @@
     border: none;
     border-bottom: 1px solid $neutral-color-50;
     margin: 32px 0px;
+  }
+
+  .whatsapp-hours {
+    @include flex-align-center;
+    gap: 4px;
   }
 
   @include md {
