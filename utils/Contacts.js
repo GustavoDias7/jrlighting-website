@@ -20,7 +20,7 @@ class Contacts {
   }
 
   set_email_link() {
-    return `mail:${this.email}`;
+    return `mailto:${this.email}`;
   }
 }
 

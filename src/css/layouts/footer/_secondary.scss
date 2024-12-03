@@ -36,15 +36,18 @@
     margin: 32px 0px;
   }
 
-  .whatsapp-hours {
-    @include flex-align-center;
-    gap: 4px;
-  }
-
   @include md {
     .container {
       padding-top: 64px;
       padding-bottom: 64px;
+    }
+
+    .email {
+      display: block;
+      @include max-width(168px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 }

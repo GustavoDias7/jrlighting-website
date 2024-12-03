@@ -53,19 +53,18 @@ const context = {
     },
   ],
   social_links: {
-    whatsapp: "https://wa.me/552199999999",
+    whatsapp: "https://wa.me/21979114806",
     facebook: "https://www.facebook.com/",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
     x: "https://x.com/",
   },
   contacts: new Contacts({
-    address_name: "Rio de Janeiro-RJ, Brasil",
-    address_link:
-      "https://maps.google.com/maps?ll=-22.914131,-43.445982&z=9&t=m&hl=en&gl=BR&mapclient=embed&q=Rio%20de%20Janeiro%20State%20of%20Rio%20de%20Janeiro",
-    telephone: "(21) 4002-8922",
-    email: "email@email.com",
-    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.7386830834!2d-43.77565508292252!3d-22.91315798611381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20State%20of%20Rio%20de%20Janeiro!5e0!3m2!1sen!2sbr!4v1725457331794!5m2!1sen!2sbr",
+    address_name: "Dante Goulart Nº 1, São João de Meriti",
+    address_link: "https://maps.app.goo.gl/Y8aBKETDHkB47r6YA",
+    telephone: "(21) 2674-3442",
+    email: "washington.negroalfa@gmail.com",
+    maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.0953411788764!2d-43.339071661875245!3d-22.79877709882353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9964d7246cf4c5%3A0x551734b37ee903dd!2sParque%20Anal%C3%A2ndia%2C%20S%C3%A3o%20Jo%C3%A3o%20de%20Meriti%20-%20State%20of%20Rio%20de%20Janeiro%2C%2025586-090!5e0!3m2!1sen!2sbr!4v1733261949486!5m2!1sen!2sbr",
   }),
   services: [],
   getServices() {
@@ -124,3 +123,9 @@ context.services.push(
 );
 
 module.exports = { context };
+
+// Oferecemos locação de equipamentos, mão de obra qualificada e projetos personalizados de palco e infraestrutura. Também fornecemos soluções completas em som, luz e imagem, garantindo o sucesso do seu evento.
+
+// Trabalhamos com locação de equipamentos, profissionais especializados e desenvolvimento de projetos de palco e infraestrutura. Além disso, oferecemos soluções completas em som, luz e imagem para tornar seu evento inesquecível.
+
+// Disponibilizamos locação de equipamentos, mão de obra qualificada e projetos exclusivos de palco e infraestrutura. Também fornecemos soluções completas em som, luz e imagem, garantindo a excelência do seu evento.
