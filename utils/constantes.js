@@ -34,25 +34,22 @@ const context = {
   ],
   team: [
     {
-      image: "../../img/icon-placeholder.svg",
-      name: "Lorem ipsum",
-      occupation: "Lorem ipsum dolor sit",
+      image: "../../img/rodrigo-rodrigues.png",
+      name: "Rodrigo Rodrigues",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et. ",
+        "Lighting designer e projetista técnico em iluminação e estrutural. Fundador e proprietário da empresa, com expertise em soluções personalizadas para eventos e projetos.",
     },
     {
-      image: "../../img/icon-placeholder.svg",
-      name: "Lorem ipsum",
-      occupation: "Lorem ipsum dolor sit",
+      image: "../../img/matheus-monteiro.png",
+      name: "Matheus Monteiro",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et. ",
+        "Produtor técnico especializado em coordenar aspectos técnicos de eventos, incluindo som, luz, imagem e efeitos, gerenciando equipes e resolvendo problemas técnicos durante a produção.",
     },
     {
-      image: "../../img/icon-placeholder.svg",
-      name: "Lorem ipsum",
-      occupation: "Lorem ipsum dolor sit",
+      image: "../../img/jorge-gomes.png",
+      name: "Jorge Gomes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia voluptatem id eveniet aperiam saepe dolorem dignissimos iste mollitia et. ",
+        "Técnico de som com vasta experiência em configurar, operar e manter equipamentos de áudio, garantindo som perfeito e sem falhas em eventos, shows e produções audiovisuais.",
     },
   ],
   social_links: {

@@ -86,6 +86,11 @@
   background-repeat: no-repeat;
 }
 
+@mixin linear-gradient($left, $right) {
+  background: $left;
+  background: linear-gradient(0deg, $left 0%, $right 100%);
+}
+
 @mixin responsive($classnames...) {
   @each $classname in $classnames {
     &.#{$classname} {
