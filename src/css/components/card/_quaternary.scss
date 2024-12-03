@@ -1,9 +1,10 @@
 .card.quaternary {
   @include max-width(272px);
-  padding: 20px;
+  padding: 24px;
   text-align: center;
   border-radius: 8px;
   border: 1px solid $neutral-color-50;
+  // @include linear-gradient($neutral-color-800, $neutral-color-600);
 
   .icon {
     $icon-area: 96px;
@@ -18,5 +19,9 @@
       @include square($icon-area - $border * 2);
       border-radius: 48px;
     }
+  }
+
+  @include sm {
+    padding: 20px;
   }
 }

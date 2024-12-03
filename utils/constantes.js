@@ -9,27 +9,27 @@ const context = {
   faq: [
     {
       id: 0,
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing elit? 0",
+      question: "Quais tipos de eventos vocês atendem?",
       response:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+        "Atendemos eventos corporativos, shows, festivais, casamentos, conferências, lançamentos de produtos, gravações e muito mais. Adaptamos nossos serviços conforme a necessidade do cliente.",
     },
     {
       id: 1,
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing elit? 1",
+      question: "Como posso solicitar um orçamento?",
       response:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+        "Você pode solicitar um orçamento entrando em contato conosco pelo telefone, e-mail, WhatsApp ou endereço físico. Nosso time irá analisar suas necessidades e enviar uma proposta personalizada.",
     },
     {
       id: 2,
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing elit? 2",
+      question: "Vocês fornecem serviços em outras cidades ou estados?",
       response:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+        "Sim, atendemos eventos em todo o Brasil, dependendo da logística e das necessidades do cliente. Entre em contato conosco para mais detalhes.",
     },
     {
       id: 3,
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing elit? 3",
+      question: "Quais formas de pagamento vocês aceitam?",
       response:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+        "Aceitamos pagamentos via transferência bancária, cartão de crédito, PIX ou boleto. Parcelamos conforme a negociação do contrato, de acordo com o valor total do serviço.",
     },
   ],
   team: [
