@@ -55,7 +55,7 @@ const context = {
   social_links: {
     whatsapp: "https://wa.me/21979114806",
     facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
+    instagram: "https://www.instagram.com/jrlighting_oficial/",
     linkedin: "https://www.linkedin.com/in/rodrigo-rodrigues-ab5445340/",
     x: "https://x.com/jrlighting_",
   },
