@@ -56,8 +56,8 @@ const context = {
     whatsapp: "https://wa.me/21979114806",
     facebook: "https://www.facebook.com/",
     instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
-    x: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/rodrigo-rodrigues-ab5445340/",
+    x: "https://x.com/jrlighting_",
   },
   contacts: new Contacts({
     address_name: "Dante Goulart Nº 1, São João de Meriti",
