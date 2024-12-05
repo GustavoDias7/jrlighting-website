@@ -1,6 +1,6 @@
 import * as vue from "vue/dist/vue.esm-bundler.js";
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { EffectCoverflow, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { mainMixin } from "../utils/mixins";
 const { createApp } = vue;
 
@@ -13,7 +13,7 @@ const app = createApp({
   },
   setup() {
     return {
-      modules: [EffectCoverflow, Navigation],
+      modules: [Navigation],
     };
   },
   data() {
@@ -43,6 +43,20 @@ const app = createApp({
           spaceBetween: 16,
         },
       },
+      breakpoints_coverflow: {
+        0: {
+          slidesPerView: "auto",
+          spaceBetween: 16,
+        },
+        480: {
+          slidesPerView: "auto",
+          spaceBetween: 16,
+        },
+        768: {
+          slidesPerView: "auto",
+          spaceBetween: 16,
+        },
+      }
     };
   },
   methods: {

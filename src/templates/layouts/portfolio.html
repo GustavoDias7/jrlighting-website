@@ -9,7 +9,7 @@
   </div>
 
   <div class="container md:container swiper-container">
-    <swiper :initial-slide="1" :effect="'coverflow'" :grab-cursor="true" :centered-slides="true"
+    <swiper :initial-slide="1" :breakpoints="breakpoints_coverflow" :grab-cursor="true"
       :slides-per-view="'auto'" :coverflow-effect="coverflowEffect" :navigation="true" :modules="modules"
       :lazy-pre-loader-class="'swiper-lazy-preloader'">
       <swiper-slide>
