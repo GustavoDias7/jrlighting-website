@@ -77,7 +77,7 @@ context.services.push(
     name: "Sonorização",
     description:
       "Caixas de som (line), monitores, amplificadores, sistema de fones, microfones, consoles, pedestais, direct box, man power, cabeamento e array.",
-    img: "../../img/placeholder-1.svg",
+    img: "../../img/sonorizacao.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
@@ -85,7 +85,7 @@ context.services.push(
     name: "Iluminação",
     description:
       "Moving spot, moving bean, moving wash, moving híbrido, par led, atomic RGBW, atomic white, ribalta P5, ribalta, cob, par #64, mini brute, elipsoidal, consoles, fog, haze, man power, splinter, rack dimmer, canhão seguidor e maquina de fumaça.",
-    img: "../../img/placeholder-2.svg",
+    img: "../../img/iluminacao.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
@@ -93,29 +93,29 @@ context.services.push(
     name: "Efeitos",
     description:
       "Espárcula, fire machine, CO2, CO2 silencioso, wave, gerb, papel picado, acionadores sem fio, laser, jardineira de fogo, acionador DMX e stadium shot.",
-    img: "../../img/placeholder-1.svg",
+    img: "../../img/efeitos.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 3,
     name: "Imagem",
     description: "Panel de led P3, projeção, TV e TP.",
-    img: "../../img/placeholder-1.svg",
+    img: "../../img/imagem.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 4,
     name: "Backline",
     description: "Instrumentos e amplificadores em geral.",
-    img: "../../img/placeholder-2.svg",
+    img: "../../img/backline.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 5,
     name: "Infraestrutura",
     description:
-      "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d'água.",
-    img: "../../img/placeholder-1.svg",
+      "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d&#39;água.",
+    img: "../../img/infraestrutura.webp",
     whatsapp: context.social_links.whatsapp,
   })
 );
