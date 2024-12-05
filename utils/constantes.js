@@ -114,7 +114,7 @@ context.services.push(
     id: 5,
     name: "Infraestrutura",
     description:
-      "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d&#39;água.",
+      "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d'água.",
     img: "../../img/infraestrutura.webp",
     whatsapp: context.social_links.whatsapp,
   })

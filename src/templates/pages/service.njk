@@ -12,7 +12,7 @@
 
 {% block script %}
 <script>
-  const str = "{{ getServices() }}".replace(/&quot;/ig, '"').replace(/&amp;/ig, '&')
+  const str = "{{ getServices() }}".replace(/&quot;/ig, '"').replace(/&amp;/ig, '&').replace("&#39;", "'")
   const services = JSON.parse(str);
   const urlParams = new URLSearchParams(window.location.search);
   const serviceId = urlParams.get('id');
