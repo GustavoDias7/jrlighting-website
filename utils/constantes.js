@@ -74,49 +74,47 @@ const context = {
 context.services.push(
   new Service({
     id: 0,
-    name: "Lorem ipsum dolor 0",
+    name: "Sonorização",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+      "Caixas de som (line), monitores, amplificadores, sistema de fones, microfones, consoles, pedestais, direct box, man power, cabeamento e array.",
     img: "../../img/placeholder-1.svg",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 1,
-    name: "Lorem ipsum dolor 1",
+    name: "Iluminação",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+      "Moving spot, moving bean, moving wash, moving híbrido, par led, atomic RGBW, atomic white, ribalta P5, ribalta, cob, par #64, mini brute, elipsoidal, consoles, fog, haze, man power, splinter, rack dimmer, canhão seguidor e maquina de fumaça.",
     img: "../../img/placeholder-2.svg",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 2,
-    name: "Lorem ipsum dolor 2",
+    name: "Efeitos",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+      "Espárcula, fire machine, CO2, CO2 silencioso, wave, gerb, papel picado, acionadores sem fio, laser, jardineira de fogo, acionador DMX e stadium shot.",
     img: "../../img/placeholder-1.svg",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 3,
-    name: "Lorem ipsum dolor 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+    name: "Imagem",
+    description: "Panel de led P3, projeção, TV e TP.",
     img: "../../img/placeholder-1.svg",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 4,
-    name: "Lorem ipsum dolor 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+    name: "Backline",
+    description: "Instrumentos e amplificadores em geral.",
     img: "../../img/placeholder-2.svg",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 5,
-    name: "Lorem ipsum dolor 5",
+    name: "Infraestrutura",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab veniam qui ducimus nesciunt cupiditate, ullam suscipit autem. Perspiciatis at ipsam velit pariatur quae. Voluptatem sequi quibusdam minima quae laborum.",
+      "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d'água.",
     img: "../../img/placeholder-1.svg",
     whatsapp: context.social_links.whatsapp,
   })

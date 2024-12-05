@@ -59,5 +59,10 @@
 @import "../layouts/portfolio";
 
 @import "../../../node_modules/swiper/swiper.scss";
-@import "../../../node_modules/swiper/modules/pagination.scss";
+@import "../../../node_modules/swiper/modules/navigation.scss";
 @import "../../../node_modules/swiper/modules/effect-coverflow.css";
+
+.ytp-shorts-title-channel,
+.ytp-title {
+  display: none !important;
+}

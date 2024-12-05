@@ -14,6 +14,15 @@
     h3 {
       text-decoration: underline;
     }
+
+    p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      height: 1.25rem * 2; // For 2 lines
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
   }
 
   .gn-button.sc-button {

@@ -19,9 +19,8 @@ class Service {
   }
 
   set_short_description() {
-    const len = this.description.length;
-    const short_descript = this.description.slice(0, len > 55 ? 55 : len - 1);
-    return short_descript + "...";
+    const short_descript = this.description.slice(0, 69);
+    return short_descript;
   }
 
   set_whatsapp_link() {
