@@ -46,10 +46,10 @@ const context = {
         "Produtor técnico especializado em coordenar aspectos técnicos de eventos, incluindo som, luz, imagem e efeitos, gerenciando equipes e resolvendo problemas técnicos durante a produção.",
     },
     {
-      image: "../../img/jorge-gomes.png",
-      name: "Jorge Gomes",
+      image: "../../img/erika-cristiane.png",
+      name: "Erika Cristiane",
       description:
-        "Técnico de som com vasta experiência em configurar, operar e manter equipamentos de áudio, garantindo som perfeito e sem falhas em eventos, shows e produções audiovisuais.",
+        "Responsável pela contabilidade, incluindo as receitas e despesas, gestão de informações, processos e agendas, proprietária da empresa e contribuindo na comunicação interna.",
     },
   ],
   social_links: {
