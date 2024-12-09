@@ -29,7 +29,7 @@ const context = {
       id: 3,
       question: "Quais formas de pagamento vocês aceitam?",
       response:
-        "Aceitamos pagamentos via transferência bancária, cartão de crédito, PIX ou boleto. Parcelamos conforme a negociação do contrato, de acordo com o valor total do serviço.",
+        "Aceitamos pagamentos via transferência bancária, cartão e PIX. Parcelamos conforme a negociação do contrato, de acordo com o valor total do serviço.",
     },
   ],
   team: [
@@ -54,7 +54,8 @@ const context = {
   ],
   social_links: {
     whatsapp: "https://wa.me/21979114806",
-    facebook: "https://www.facebook.com/",
+    facebook:
+      "https://www.facebook.com/people/JRlighting/61570193494398/?mibextid=LQQJ4d&rdid=jachBKeGa81TAest&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F3jYUWw7gCY6JDCha%2F%3Fmibextid%3DLQQJ4d",
     instagram: "https://www.instagram.com/jrlighting_oficial/",
     linkedin: "https://www.linkedin.com/in/rodrigo-rodrigues-ab5445340/",
     x: "https://x.com/jrlighting_",
@@ -93,14 +94,14 @@ context.services.push(
     name: "Efeitos",
     description:
       "Espárcula, fire machine, CO2, CO2 silencioso, wave, gerb, papel picado, acionadores sem fio, laser, jardineira de fogo, acionador DMX e stadium shot.",
-    img: "../../img/efeitos.webp",
+    img: "../../img/effects.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
     id: 3,
     name: "Imagem",
     description: "Panel de led P3, projeção, TV e TP.",
-    img: "../../img/imagem.webp",
+    img: "../../img/image.webp",
     whatsapp: context.social_links.whatsapp,
   }),
   new Service({
@@ -115,15 +116,9 @@ context.services.push(
     name: "Infraestrutura",
     description:
       "Tenda, P50, P30, P25, P15, pisos de palco, praticáveis, grades, passa cabo e caixa d'água.",
-    img: "../../img/infraestrutura.webp",
+    img: "../../img/infrastructure.webp",
     whatsapp: context.social_links.whatsapp,
   })
 );
 
 module.exports = { context };
-
-// Oferecemos locação de equipamentos, mão de obra qualificada e projetos personalizados de palco e infraestrutura. Também fornecemos soluções completas em som, luz e imagem, garantindo o sucesso do seu evento.
-
-// Trabalhamos com locação de equipamentos, profissionais especializados e desenvolvimento de projetos de palco e infraestrutura. Além disso, oferecemos soluções completas em som, luz e imagem para tornar seu evento inesquecível.
-
-// Disponibilizamos locação de equipamentos, mão de obra qualificada e projetos exclusivos de palco e infraestrutura. Também fornecemos soluções completas em som, luz e imagem, garantindo a excelência do seu evento.
